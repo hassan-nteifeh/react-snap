@@ -26,7 +26,7 @@ const defaultOptions = {
   puppeteer: {
     cache: true
   },
-  puppeteerArgs: [],
+  puppeteerArgs: ["--no-sandbox", "--disable-setuid-sandbox"],
   puppeteerExecutablePath: undefined,
   puppeteerIgnoreHTTPSErrors: false,
   publicPath: "/",
